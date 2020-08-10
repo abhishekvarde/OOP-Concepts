@@ -1,8 +1,8 @@
 #include <iostream>
 #include <string>
 #include <memory>
-#include "FileLogger.h"
-#include "ConsoleLogger.h"
+#include "headers/FileLogger.h"
+#include "headers/ConsoleLogger.h"
 using namespace std;
 
 void process(shared_ptr<ILogger> &logger){
@@ -14,7 +14,7 @@ void process(shared_ptr<ILogger> &logger){
     if( logger->get_type() == ILogger::FILE ){
         FileLogger *fileLogger = reinterpret_cast<FileLogger*>(logger.get());
         cout << endl << "Current logger file_name : ";
-        cout << fileLogger->get_file_name() << endl;
+        // cout << fileLogger->get_file_name() << endl;
     }
     // else{
     //     //jabardasti for console
@@ -52,7 +52,12 @@ int main(){
 /*
 
 
-
+echo "# OOP-Concepts" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/abhishekvarde/OOP-Concepts.git
+git push -u origin master
 
 
 */

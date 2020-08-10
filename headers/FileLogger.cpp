@@ -1,14 +1,15 @@
 #include "FileLogger.h"
 
+// FileLogger::FileLogger(){};
+
 FileLogger::FileLogger( std::string file_name ){
     this->file_name = file_name;
 }
 
-FileLogger::~FileLogger(){
-}
+// FileLogger::~FileLogger(){};
 
-FileLogger::LoggerType get_type(){
-    return ILogger::FILE;
+ILogger::LoggerType FileLogger::get_type(){
+    return FILE;
 }
 
 void FileLogger::log( std::string s ){
@@ -18,4 +19,8 @@ void FileLogger::log( std::string s ){
     MyFile2ndObj << "Date : " << getCurrentTime() << "Content start from next line : \n-->>>"<< s << "\n\n";
     MyFile2ndObj.close();
 
+}
+
+std::string FileLogger::get_file_name(){
+    return this->file_name;
 }

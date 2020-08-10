@@ -1,9 +1,12 @@
 #include "ILogger.h"
 
+// ILogger::ILogger(){};
+
 ILogger::LoggerType ILogger::get_type(){
     return UNDEFINED;
 }
 
+// virtual ILogger::~ILogger(){};
 
 // This function is called with reference to the derived class
 std::string ILogger::get_logger_type(LoggerType loggerType){
