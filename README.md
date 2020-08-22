@@ -7,4 +7,5 @@ Project is based on basic logger idea having **FileLogger** and **ConsoleLogger*
 Further more things will be added soon.
 
 Join us if you want to contribute.
-Reach out my mail address - [Mail Me](abhishek.varde@gmail.com)
+
+If you want to connect reach out my mail address - [Mail Me](abhishek.varde@gmail.com)
