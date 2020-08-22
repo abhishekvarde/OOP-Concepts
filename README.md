@@ -8,4 +8,4 @@ Further more things will be added soon.
 
 Join us if you want to contribute.
 
-I you want to connect me through mail reach out my mail address - [Mail Me](mailto:abhishek.varde@gmail.com)
+If you want to connect me through mail reach out my mail address - [Mail Me](mailto:abhishek.varde@gmail.com)
