@@ -48,6 +48,12 @@
         "typeinfo": "cpp",
         "compare": "cpp",
         "concepts": "cpp",
-        "ranges": "cpp"
+        "ranges": "cpp",
+        "thread": "cpp",
+        "chrono": "cpp",
+        "condition_variable": "cpp",
+        "ratio": "cpp",
+        "mutex": "cpp",
+        "stop_token": "cpp"
     }
 }

@@ -1,8 +1,8 @@
-#include "ConsoleLogger.h"
+#include "../inc/ConsoleLogger.h"
 
 // used to write log
 void ConsoleLogger::log( std::string s ){
-    std::cout << ILogger::getCurrentTime() << " " << s << std::endl;
+    std::cout << ILogger::getCurrentTime() << s << std::endl;
     // throw s;
 }
 

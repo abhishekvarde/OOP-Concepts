@@ -1,0 +1,32 @@
+Date : Sat Aug 22 09:21:12 2020
+Content start from next line : 
+-->>>Log written into file
+
+Date : Sat Aug 22 09:21:12 2020
+Content start from next line : 
+-->>>Process function is called
+
+Date : Sat Aug 22 09:21:12 2020
+Content start from next line : 
+-->>>Process function is called
+
+Date : Sat Aug 22 09:21:12 2020
+Content start from next line : 
+-->>>Process function is called
+
+Date : Sat Aug 22 09:24:11 2020
+Content start from next line : 
+-->>>Log written into file
+
+Date : Sat Aug 22 09:24:11 2020
+Content start from next line : 
+-->>>Process function is called
+
+Date : Sat Aug 22 09:24:11 2020
+Content start from next line : 
+-->>>Process function is called
+
+Date : Sat Aug 22 09:24:11 2020
+Content start from next line : 
+-->>>Process function is called
+

@@ -3,17 +3,22 @@
 #include "ILogger.h"
 #include <fstream>
 #include <iostream>
+#include <mutex>
 class FileLogger : public ILogger{
 
     std::string file_name;
+
+    std::mutex file_mutex;
     
     public:
 
-        FileLogger(){};
+        FileLogger(){}
+
+        FileLogger(const FileLogger&);
 
         FileLogger( std::string );
 
-        ~FileLogger(){};
+        ~FileLogger(){}
 
         LoggerType get_type();
 
