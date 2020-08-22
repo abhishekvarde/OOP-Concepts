@@ -2,6 +2,9 @@
 
 // used to write log
 void ConsoleLogger::log( std::string s ){
+
+    this->bytes_used += s.length()*sizeof('a');
+    
     std::cout << ILogger::getCurrentTime() << s << std::endl;
     // throw s;
 }
