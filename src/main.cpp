@@ -49,7 +49,7 @@ int main(){
 
     // cout << "Entered in main" << endl;
 
-    fileLogger = make_shared<FileLogger>("src/loggerr.txt");
+    fileLogger = make_shared<FileLogger>("loggingFiles/loggerr.txt");
     fileLogger->log("Log written into file");
 
 
@@ -78,6 +78,10 @@ int main(){
     t2.join();
 
     cout << "Thread var : " << thread_var << endl;
+
+    cout << "Bytes used in file logger : " << fileLogger->get_bytes_used() << endl;
+
+    cout << "Bytes used in console logger : " << consoleLogger->get_bytes_used() << endl;
 
     return 0;
 

@@ -8,6 +8,11 @@ ILogger::LoggerType ILogger::get_type(){
 
 // virtual ILogger::~ILogger(){};
 
+// get no of bytes used by logger
+long long int ILogger::get_bytes_used(){
+    return this->bytes_used;
+};
+
 // This function is called with reference to the derived class
 std::string ILogger::get_logger_type(LoggerType loggerType){
 

@@ -19,6 +19,8 @@ ILogger::LoggerType FileLogger::get_type(){
 
 void FileLogger::log( std::string s ){
 
+    this->bytes_used += s.length()*sizeof('a');
+
     std::unique_lock<std::mutex> lock(file_mutex);
 
     std::cout << std::endl << "Currently logger is called of class file" << std::endl;

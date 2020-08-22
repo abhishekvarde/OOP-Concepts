@@ -15,6 +15,12 @@ class ILogger{
     // enum is defined specially to use it into derived class.
     enum LoggerType {CONSOLE, FILE, UNDEFINED};
 
+    // variable to store used bytes
+    long long int bytes_used = 0;
+
+    // get no of bytes used by logger
+    long long int get_bytes_used();
+
     // whenever object of this class get_type
     virtual LoggerType get_type();
 
